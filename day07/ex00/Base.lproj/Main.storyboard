@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ex00" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CHY-7I-PLH">
+                                <rect key="frame" x="30" y="437.5" width="354" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Sent">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ThV-lW-JDS"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Text you will send to Recast" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Tj-GY-2rb">
+                                <rect key="frame" x="30" y="373.5" width="354" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENQ-J8-qUL">
+                                <rect key="frame" x="30" y="498.5" width="354" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ENQ-J8-qUL" firstAttribute="top" secondItem="CHY-7I-PLH" secondAttribute="bottom" constant="30" id="JXf-gO-sGe"/>
+                            <constraint firstItem="CHY-7I-PLH" firstAttribute="trailing" secondItem="1Tj-GY-2rb" secondAttribute="trailing" id="Jjp-KC-U7B"/>
+                            <constraint firstItem="CHY-7I-PLH" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="SzX-fn-Ych"/>
+                            <constraint firstItem="CHY-7I-PLH" firstAttribute="top" secondItem="1Tj-GY-2rb" secondAttribute="bottom" constant="30" id="VXy-7r-dPn"/>
+                            <constraint firstItem="CHY-7I-PLH" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.855072" id="YaO-k6-cn5"/>
+                            <constraint firstItem="ENQ-J8-qUL" firstAttribute="leading" secondItem="CHY-7I-PLH" secondAttribute="leading" id="Zba-2d-efC"/>
+                            <constraint firstItem="ENQ-J8-qUL" firstAttribute="trailing" secondItem="CHY-7I-PLH" secondAttribute="trailing" id="gs1-Jg-1Kw"/>
+                            <constraint firstItem="CHY-7I-PLH" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="mMd-Ck-lPF"/>
+                            <constraint firstItem="CHY-7I-PLH" firstAttribute="leading" secondItem="1Tj-GY-2rb" secondAttribute="leading" id="x6F-8y-gbb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="ENQ-J8-qUL" id="C2l-OL-LvS"/>
+                        <outlet property="textField" destination="1Tj-GY-2rb" id="1pc-sm-qAd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="124.6376811594203" y="115.84821428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,16 @@
+PODS:
+  - lcorinna2022 (0.1.0)
+
+DEPENDENCIES:
+  - lcorinna2022 (from `../`)
+
+EXTERNAL SOURCES:
+  lcorinna2022:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  lcorinna2022: 3c373f01e4eed8401c6d92f490ac9567e6250763
+
+PODFILE CHECKSUM: ad5db1edfd8df07504491845fb26ed1a076c2e75
+
+COCOAPODS: 1.11.3

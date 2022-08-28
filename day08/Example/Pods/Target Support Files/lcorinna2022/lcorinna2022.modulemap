@@ -1,0 +1,6 @@
+framework module lcorinna2022 {
+  umbrella header "lcorinna2022-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17E06B1B6892A340C222AD1D3EEFA5FE /* Pods-lcorinna2022_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE29FCF6CBE859937CCCBFE5A0D65E7 /* Pods-lcorinna2022_Tests-dummy.m */; };
+		537660DA190E4E302021714FA01E5F01 /* Pods-lcorinna2022_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F34F85C6C8CF50C6AEDC0C08DC3931 /* Pods-lcorinna2022_Example-dummy.m */; };
+		55D04F259C7D1A9CAADF87169906D97F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7A839A03FBF9C92FDA747F0C35191AAB /* lcorinna2022-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A320972B77D2FAD121D4A8C705640C73 /* lcorinna2022-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BCEDF5BAAF382AB0946DEC74E591BDB /* Pods-lcorinna2022_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F749D1A76DB84B43F73C3C86AE345BDF /* Pods-lcorinna2022_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BDC6BC649375A675B31224517E42F25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AA5353C57BC97DAEE9F696C8E6912FB4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3292FAF1348AA51C696043DA411DA0 /* ReplaceMe.swift */; };
+		BA624C1856C6F4F1001A6BA6F8659C77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CA054AF9984A21069ECC9C356BA62B70 /* lcorinna2022-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8AE1E78118B519567B25E8D2BBEF3 /* lcorinna2022-dummy.m */; };
+		EB04F2AF352F489FA78100224C0B0D09 /* Pods-lcorinna2022_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A768F5EF3CF2DCC5B3BE8DAE244EF2D /* Pods-lcorinna2022_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75D88C4855A9CFE52BD5472EBB34D242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 586F7F0FABDD099A154B63440E9F2947;
+			remoteInfo = "Pods-lcorinna2022_Example";
+		};
+		FF5E0D9EEDA21E20C84CFA9B24330EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F29F3B5AE7FBD566B9313ADDD6D2FB0;
+			remoteInfo = lcorinna2022;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D8EB6E49FDD08A5933B6A45364D9910 /* lcorinna2022.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = lcorinna2022.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F1895E089644041FB8258F36D2A21BA /* lcorinna2022.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = lcorinna2022.release.xcconfig; sourceTree = "<group>"; };
+		22FA8F4B28B3ED8A0096A846 /* article.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = article.xcdatamodel; sourceTree = "<group>"; };
+		24007FB3AA037866425329007F715016 /* Pods-lcorinna2022_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lcorinna2022_Tests-Info.plist"; sourceTree = "<group>"; };
+		29CC951A7B41FC1632146E1F611C0ECD /* Pods-lcorinna2022_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lcorinna2022_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2E13B6D9957ACCA461EC7F2D9C5A2361 /* lcorinna2022 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = lcorinna2022; path = lcorinna2022.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB8AE1E78118B519567B25E8D2BBEF3 /* lcorinna2022-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "lcorinna2022-dummy.m"; sourceTree = "<group>"; };
+		31F34F85C6C8CF50C6AEDC0C08DC3931 /* Pods-lcorinna2022_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lcorinna2022_Example-dummy.m"; sourceTree = "<group>"; };
+		3681E5D95E7836327EE36A380F250181 /* Pods-lcorinna2022_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lcorinna2022_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A768F5EF3CF2DCC5B3BE8DAE244EF2D /* Pods-lcorinna2022_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-lcorinna2022_Tests-umbrella.h"; sourceTree = "<group>"; };
+		51832DD7C7C89E88B1DE157846D6E996 /* Pods-lcorinna2022_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-lcorinna2022_Tests.modulemap"; sourceTree = "<group>"; };
+		5FE29FCF6CBE859937CCCBFE5A0D65E7 /* Pods-lcorinna2022_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lcorinna2022_Tests-dummy.m"; sourceTree = "<group>"; };
+		6215D4577CD3C79612FEFDD36CB7F8D9 /* lcorinna2022-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "lcorinna2022-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A1FB72335A086D2D0391413B7986995 /* lcorinna2022.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = lcorinna2022.modulemap; sourceTree = "<group>"; };
+		7D580503D83BB75A76B4EF465C692BD4 /* Pods-lcorinna2022_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lcorinna2022_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8307D8F3FFDBCAE4BB5DC1462FFE552F /* lcorinna2022.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = lcorinna2022.debug.xcconfig; sourceTree = "<group>"; };
+		84D3323A60593A30ED8F9FF7C13EDC2B /* Pods-lcorinna2022_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lcorinna2022_Example-Info.plist"; sourceTree = "<group>"; };
+		87540AC0428A23B8A119FF99ABE55857 /* Pods-lcorinna2022_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lcorinna2022_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		92FC2931DA97301436698E9F5A8BAB97 /* Pods-lcorinna2022_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-lcorinna2022_Example.modulemap"; sourceTree = "<group>"; };
+		947AF906AE0C5C9D1FC3E587326A85F3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9648B5CF58F674F39FF46874AD64125A /* Pods-lcorinna2022_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lcorinna2022_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A320972B77D2FAD121D4A8C705640C73 /* lcorinna2022-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lcorinna2022-umbrella.h"; sourceTree = "<group>"; };
+		B302F399646E1051EDCA9B362C633F29 /* Pods-lcorinna2022_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lcorinna2022_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9B4B567568D83C20820D5CFADF53B7B /* Pods-lcorinna2022_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lcorinna2022_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BC3292FAF1348AA51C696043DA411DA0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = lcorinna2022/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		C99F48AF13916CDD346713C7982BDD97 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CC43424571FBA0E3300BEBB29C90B49D /* Pods-lcorinna2022_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-lcorinna2022_Tests"; path = Pods_lcorinna2022_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0C10FBC0BF37F6A9EB1B2AF6F6385D /* Pods-lcorinna2022_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lcorinna2022_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EA411B68E261F367BB3DACFB771FBA10 /* lcorinna2022-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lcorinna2022-prefix.pch"; sourceTree = "<group>"; };
+		F44850CA10B82ED0A03658FCBEFC6349 /* Pods-lcorinna2022_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-lcorinna2022_Example"; path = Pods_lcorinna2022_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6CBC19904EADDA866664F92D8E6615D /* Pods-lcorinna2022_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lcorinna2022_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F749D1A76DB84B43F73C3C86AE345BDF /* Pods-lcorinna2022_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-lcorinna2022_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		387E573D14F889164EE65DED29533358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D04F259C7D1A9CAADF87169906D97F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1ADC104897C6FE606767AE286A5D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA624C1856C6F4F1001A6BA6F8659C77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D5E603888BB3CA8D74B4E12FF3A56C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDC6BC649375A675B31224517E42F25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07FEF5143940D2BC9E1D7113DEC81237 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E13B6D9957ACCA461EC7F2D9C5A2361 /* lcorinna2022 */,
+				F44850CA10B82ED0A03658FCBEFC6349 /* Pods-lcorinna2022_Example */,
+				CC43424571FBA0E3300BEBB29C90B49D /* Pods-lcorinna2022_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30F94EA47BF29297FCA4BB9E3A0F69D0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB2A6C456DE1087A7378ED86D7CD2A46 /* lcorinna2022 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C1B7F835BB27F6455C6329D4D7F85D7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A1FB72335A086D2D0391413B7986995 /* lcorinna2022.modulemap */,
+				2FB8AE1E78118B519567B25E8D2BBEF3 /* lcorinna2022-dummy.m */,
+				6215D4577CD3C79612FEFDD36CB7F8D9 /* lcorinna2022-Info.plist */,
+				EA411B68E261F367BB3DACFB771FBA10 /* lcorinna2022-prefix.pch */,
+				A320972B77D2FAD121D4A8C705640C73 /* lcorinna2022-umbrella.h */,
+				8307D8F3FFDBCAE4BB5DC1462FFE552F /* lcorinna2022.debug.xcconfig */,
+				1F1895E089644041FB8258F36D2A21BA /* lcorinna2022.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/lcorinna2022";
+			sourceTree = "<group>";
+		};
+		A4CA42FBA78DBCBDE88E292E175A70BA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B72F8943833F510870557252413E50FA /* Pods-lcorinna2022_Example */,
+				A8D1AB3417EDC931E2567D5CC9C8496A /* Pods-lcorinna2022_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A8D1AB3417EDC931E2567D5CC9C8496A /* Pods-lcorinna2022_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				51832DD7C7C89E88B1DE157846D6E996 /* Pods-lcorinna2022_Tests.modulemap */,
+				3681E5D95E7836327EE36A380F250181 /* Pods-lcorinna2022_Tests-acknowledgements.markdown */,
+				7D580503D83BB75A76B4EF465C692BD4 /* Pods-lcorinna2022_Tests-acknowledgements.plist */,
+				5FE29FCF6CBE859937CCCBFE5A0D65E7 /* Pods-lcorinna2022_Tests-dummy.m */,
+				24007FB3AA037866425329007F715016 /* Pods-lcorinna2022_Tests-Info.plist */,
+				4A768F5EF3CF2DCC5B3BE8DAE244EF2D /* Pods-lcorinna2022_Tests-umbrella.h */,
+				9648B5CF58F674F39FF46874AD64125A /* Pods-lcorinna2022_Tests.debug.xcconfig */,
+				87540AC0428A23B8A119FF99ABE55857 /* Pods-lcorinna2022_Tests.release.xcconfig */,
+			);
+			name = "Pods-lcorinna2022_Tests";
+			path = "Target Support Files/Pods-lcorinna2022_Tests";
+			sourceTree = "<group>";
+		};
+		AB2A6C456DE1087A7378ED86D7CD2A46 /* lcorinna2022 */ = {
+			isa = PBXGroup;
+			children = (
+				BC3292FAF1348AA51C696043DA411DA0 /* ReplaceMe.swift */,
+				AD194C436C08C7BEA7CF66573F72585F /* Pod */,
+				5C1B7F835BB27F6455C6329D4D7F85D7 /* Support Files */,
+			);
+			name = lcorinna2022;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AD194C436C08C7BEA7CF66573F72585F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1D8EB6E49FDD08A5933B6A45364D9910 /* lcorinna2022.podspec */,
+				C99F48AF13916CDD346713C7982BDD97 /* LICENSE */,
+				947AF906AE0C5C9D1FC3E587326A85F3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B72F8943833F510870557252413E50FA /* Pods-lcorinna2022_Example */ = {
+			isa = PBXGroup;
+			children = (
+				92FC2931DA97301436698E9F5A8BAB97 /* Pods-lcorinna2022_Example.modulemap */,
+				F6CBC19904EADDA866664F92D8E6615D /* Pods-lcorinna2022_Example-acknowledgements.markdown */,
+				B302F399646E1051EDCA9B362C633F29 /* Pods-lcorinna2022_Example-acknowledgements.plist */,
+				31F34F85C6C8CF50C6AEDC0C08DC3931 /* Pods-lcorinna2022_Example-dummy.m */,
+				CF0C10FBC0BF37F6A9EB1B2AF6F6385D /* Pods-lcorinna2022_Example-frameworks.sh */,
+				84D3323A60593A30ED8F9FF7C13EDC2B /* Pods-lcorinna2022_Example-Info.plist */,
+				F749D1A76DB84B43F73C3C86AE345BDF /* Pods-lcorinna2022_Example-umbrella.h */,
+				B9B4B567568D83C20820D5CFADF53B7B /* Pods-lcorinna2022_Example.debug.xcconfig */,
+				29CC951A7B41FC1632146E1F611C0ECD /* Pods-lcorinna2022_Example.release.xcconfig */,
+			);
+			name = "Pods-lcorinna2022_Example";
+			path = "Target Support Files/Pods-lcorinna2022_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				22FA8F4A28B3ED8A0096A846 /* article.xcdatamodeld */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				30F94EA47BF29297FCA4BB9E3A0F69D0 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				07FEF5143940D2BC9E1D7113DEC81237 /* Products */,
+				A4CA42FBA78DBCBDE88E292E175A70BA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		42C0DBFB3F80F8329E60648AF53AAF8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB04F2AF352F489FA78100224C0B0D09 /* Pods-lcorinna2022_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C720B20C22B9884863DCAD0D95FB4400 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCEDF5BAAF382AB0946DEC74E591BDB /* Pods-lcorinna2022_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E374B5541EBB3F92FFFB26537E5F55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A839A03FBF9C92FDA747F0C35191AAB /* lcorinna2022-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		242CE6747F84CF97E63D511D00DBBCFA /* Pods-lcorinna2022_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3384FF298BDA8506758B7493A987ED9 /* Build configuration list for PBXNativeTarget "Pods-lcorinna2022_Tests" */;
+			buildPhases = (
+				42C0DBFB3F80F8329E60648AF53AAF8F /* Headers */,
+				6A369A5A6FA01A4C22EF5B4E79DFF78E /* Sources */,
+				5A1ADC104897C6FE606767AE286A5D1A /* Frameworks */,
+				58665394156A1172CFA12A7CC3045691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E2A05FDA6608ECCA65E166B0E34DF42 /* PBXTargetDependency */,
+			);
+			name = "Pods-lcorinna2022_Tests";
+			productName = Pods_lcorinna2022_Tests;
+			productReference = CC43424571FBA0E3300BEBB29C90B49D /* Pods-lcorinna2022_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		586F7F0FABDD099A154B63440E9F2947 /* Pods-lcorinna2022_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3017F9A9EC02D64DB02699459BEE45F /* Build configuration list for PBXNativeTarget "Pods-lcorinna2022_Example" */;
+			buildPhases = (
+				C720B20C22B9884863DCAD0D95FB4400 /* Headers */,
+				9BF231CF026162BCA8F5716A0D237512 /* Sources */,
+				89D5E603888BB3CA8D74B4E12FF3A56C /* Frameworks */,
+				DBCF686BDC77A2F1D844AB40CBE5C1E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5CC2E6CD2279055F74ED6649E27F062 /* PBXTargetDependency */,
+			);
+			name = "Pods-lcorinna2022_Example";
+			productName = Pods_lcorinna2022_Example;
+			productReference = F44850CA10B82ED0A03658FCBEFC6349 /* Pods-lcorinna2022_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F29F3B5AE7FBD566B9313ADDD6D2FB0 /* lcorinna2022 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69796BE5FD84A83C4BE15F8CDD8A17E1 /* Build configuration list for PBXNativeTarget "lcorinna2022" */;
+			buildPhases = (
+				D5E374B5541EBB3F92FFFB26537E5F55 /* Headers */,
+				4D0DA13626E9E0B218F7F8F737F69FD1 /* Sources */,
+				387E573D14F889164EE65DED29533358 /* Frameworks */,
+				51F4888FB4D006894A02FFDA4CEF498D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lcorinna2022;
+			productName = lcorinna2022;
+			productReference = 2E13B6D9957ACCA461EC7F2D9C5A2361 /* lcorinna2022 */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 07FEF5143940D2BC9E1D7113DEC81237 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F29F3B5AE7FBD566B9313ADDD6D2FB0 /* lcorinna2022 */,
+				586F7F0FABDD099A154B63440E9F2947 /* Pods-lcorinna2022_Example */,
+				242CE6747F84CF97E63D511D00DBBCFA /* Pods-lcorinna2022_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51F4888FB4D006894A02FFDA4CEF498D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58665394156A1172CFA12A7CC3045691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCF686BDC77A2F1D844AB40CBE5C1E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D0DA13626E9E0B218F7F8F737F69FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA054AF9984A21069ECC9C356BA62B70 /* lcorinna2022-dummy.m in Sources */,
+				AA5353C57BC97DAEE9F696C8E6912FB4 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A369A5A6FA01A4C22EF5B4E79DFF78E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E06B1B6892A340C222AD1D3EEFA5FE /* Pods-lcorinna2022_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF231CF026162BCA8F5716A0D237512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537660DA190E4E302021714FA01E5F01 /* Pods-lcorinna2022_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E2A05FDA6608ECCA65E166B0E34DF42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-lcorinna2022_Example";
+			target = 586F7F0FABDD099A154B63440E9F2947 /* Pods-lcorinna2022_Example */;
+			targetProxy = 75D88C4855A9CFE52BD5472EBB34D242 /* PBXContainerItemProxy */;
+		};
+		B5CC2E6CD2279055F74ED6649E27F062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = lcorinna2022;
+			target = 8F29F3B5AE7FBD566B9313ADDD6D2FB0 /* lcorinna2022 */;
+			targetProxy = FF5E0D9EEDA21E20C84CFA9B24330EB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17E0BC0316648FA492D3F3EB1AA43071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9B4B567568D83C20820D5CFADF53B7B /* Pods-lcorinna2022_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-lcorinna2022_Example/Pods-lcorinna2022_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-lcorinna2022_Example/Pods-lcorinna2022_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		802BF4475BF476C86F5A8A66BD419D11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87540AC0428A23B8A119FF99ABE55857 /* Pods-lcorinna2022_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-lcorinna2022_Tests/Pods-lcorinna2022_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-lcorinna2022_Tests/Pods-lcorinna2022_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2419FE434D288642FCDC59E3CAA6A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1895E089644041FB8258F36D2A21BA /* lcorinna2022.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/lcorinna2022/lcorinna2022-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/lcorinna2022/lcorinna2022-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/lcorinna2022/lcorinna2022.modulemap";
+				PRODUCT_MODULE_NAME = lcorinna2022;
+				PRODUCT_NAME = lcorinna2022;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E935A3361E963CD862AD7E75AC1918F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9648B5CF58F674F39FF46874AD64125A /* Pods-lcorinna2022_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-lcorinna2022_Tests/Pods-lcorinna2022_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-lcorinna2022_Tests/Pods-lcorinna2022_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA0F201C933FCE33C216FE1F7F15E25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29CC951A7B41FC1632146E1F611C0ECD /* Pods-lcorinna2022_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-lcorinna2022_Example/Pods-lcorinna2022_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-lcorinna2022_Example/Pods-lcorinna2022_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EAABE10F8483636F85FBDCA37FDB355F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8307D8F3FFDBCAE4BB5DC1462FFE552F /* lcorinna2022.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/lcorinna2022/lcorinna2022-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/lcorinna2022/lcorinna2022-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/lcorinna2022/lcorinna2022.modulemap";
+				PRODUCT_MODULE_NAME = lcorinna2022;
+				PRODUCT_NAME = lcorinna2022;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69796BE5FD84A83C4BE15F8CDD8A17E1 /* Build configuration list for PBXNativeTarget "lcorinna2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAABE10F8483636F85FBDCA37FDB355F /* Debug */,
+				D2419FE434D288642FCDC59E3CAA6A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3017F9A9EC02D64DB02699459BEE45F /* Build configuration list for PBXNativeTarget "Pods-lcorinna2022_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E0BC0316648FA492D3F3EB1AA43071 /* Debug */,
+				EA0F201C933FCE33C216FE1F7F15E25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3384FF298BDA8506758B7493A987ED9 /* Build configuration list for PBXNativeTarget "Pods-lcorinna2022_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E935A3361E963CD862AD7E75AC1918F5 /* Debug */,
+				802BF4475BF476C86F5A8A66BD419D11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22FA8F4A28B3ED8A0096A846 /* article.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22FA8F4B28B3ED8A0096A846 /* article.xcdatamodel */,
+			);
+			currentVersion = 22FA8F4B28B3ED8A0096A846 /* article.xcdatamodel */;
+			path = article.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

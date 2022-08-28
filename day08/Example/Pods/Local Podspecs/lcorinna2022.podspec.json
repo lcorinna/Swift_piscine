@@ -1,0 +1,22 @@
+{
+  "name": "lcorinna2022",
+  "version": "0.1.0",
+  "summary": "A short description of lcorinna2022.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lcorinna/lcorinna2022",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lcorinna": "lcorinna@student.21-school.ru"
+  },
+  "source": {
+    "git": "https://github.com/lcorinna/lcorinna2022.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "lcorinna2022/Classes/**/*"
+}

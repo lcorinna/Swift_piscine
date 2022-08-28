@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ex00' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ex00
+  pod 'Alamofire', '~> 4.8.2'
+  pod 'ObjectMapper', '~> 3.4.2'
+  pod 'RecastAI', '~> 3.5.0'
+  pod 'ForecastIO', '~> 8.0'
+
+end
